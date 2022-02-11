@@ -5,7 +5,7 @@ A simple bot that allows you to show your server more active.
 First go to token.txt and add your discord bot token there. After that please go to dashboardConfig.txt and past your botdash.pro API Client there. Then you can change settings in config.json. That's it!
 
 ## GitHub Repository
-[Click here to see our GitHub Repository](YOUR GITHUB REPOSITORY LINK)
+[Click here to see our GitHub Repository](https://github.com/DinoscapeProgramming/typing-bot)
 
 ## Developer
 We're a big developer team:
