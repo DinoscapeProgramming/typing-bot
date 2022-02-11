@@ -8,9 +8,8 @@ First go to token.txt and add your discord bot token there. After that please go
 [Click here to see our GitHub Repository](https://github.com/DinoscapeProgramming/typing-bot)
 
 ## Developer
-We're a big developer team:
-* YOUR USERNAME # YOUR TAG
-* USERNAME 2 # TAG 2
+Here's our developer team:
+* Dinoscape#5064
 
 ## Note
 This bot is free to use. Everybody here can use the code for his / her own purpose.
