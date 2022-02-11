@@ -16,6 +16,9 @@ This bot is free to use. Everybody here can use the code for his / her own purpo
 
 ## Gitignore
 This is only required when you use GitHub or any other social publishing platform.
+```
+Test
+```
 
 ## Disclaimer
 WE DON'T GUARANTEE THAT THE BOT DON'T MAKE ANY DAMAGE WITH YOUR SERVER / OTHER SERVERS. USE AT YOUR OWN RISK. THIS IS THE OFFICIAL GITHUB REPOSITORY FOR TYPING BOT. WHEN YOU SEE ANY OTHER REPOSITORY FOR TYPING BOT, THEN IT'S FAKE.
