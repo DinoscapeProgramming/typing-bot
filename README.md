@@ -15,9 +15,11 @@ Here's our developer team:
 This bot is free to use. Everybody here can use the code for his / her own purpose.
 
 ## Gitignore
-This is only required when you use GitHub or any other social publishing platform.
+This is only required when you use GitHub or any other social publishing platform. Make a simple file with the name __.gitignore__ and this content:
 ```
-Test
+node_modules
+token.txt
+dashboardConfig.txt
 ```
 
 ## Disclaimer
