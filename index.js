@@ -31,7 +31,7 @@ const client = new Client({
 const disbut = require('discord-buttons');
 disbut(client)
 const slashCommandBuilder = require('discord-slash-commands-client');
-const slash = new slashCommandBuilder.Client("OTIxNzg5NjczNTExMjExMDM5.Yb4BiA.DHDFjpEB2mCmmnFptHHxW7IjLzg", "921789673511211039")
+const slash = new slashCommandBuilder.Client(token, client.user.id)
 
 client.on('ready', async () => {
     console.log("I'm now ready on " + await client.guilds.cache.size + " Servers!")
