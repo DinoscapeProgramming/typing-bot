@@ -1,0 +1,10 @@
+{
+    "status": ["1",  "2", "3"],
+    "statusChangeDuration": "5000",
+    "statusType": "PLAYING",
+    "errorChannel": "935597950229426196",
+    "statusChannel": "934781023223443476",
+    "serverChannel": "934836647919493190",
+    "commandChannel": "ID OF YOUR COMMAND CHANNEL",
+    "owner": "YOUR ID HERE / IF YOU DON'T KNOW HOW TO DO THIS, THEN WATCH ANY TUTORIAL"
+}
