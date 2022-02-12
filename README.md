@@ -3,7 +3,9 @@ A simple bot that allows you to show your server more active.
 
 ## Get started
 First go to token.txt and add your discord bot token there. After that please go to dashboardConfig.txt and past your botdash.pro API Client there. Then you can change settings in config.json. You also need to install the packages. Just run this codes:
-```npm install discord.js@12.5.3```
+```
+npm install discord.js@12.5.3
+```
 ```npm install discord-buttons```
 ```npm install botdash.pro```
 That's it!
