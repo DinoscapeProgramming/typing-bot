@@ -48,6 +48,10 @@ client.on('ready', async () => {
             data: data
         })
     }
+    slashCommand({
+      name: "help",
+      description: "The help command for this bot"
+    })
     if (typeof config.status === "string") {
         client.user.setActivity(config.status, {
             type: config.statusType
