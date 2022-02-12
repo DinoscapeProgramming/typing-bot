@@ -1,10 +1,10 @@
 {
-    "status": ["1",  "2", "3"],
-    "statusChangeDuration": "5000",
-    "statusType": "PLAYING",
-    "errorChannel": "935597950229426196",
-    "statusChannel": "934781023223443476",
-    "serverChannel": "934836647919493190",
-    "commandChannel": "ID OF YOUR COMMAND CHANNEL",
-    "owner": "YOUR ID HERE / IF YOU DON'T KNOW HOW TO DO THIS, THEN WATCH ANY TUTORIAL"
+    "status": "YOUR STATUS HERE // optional",
+    "statusChangeDuration": "YOUR STATUS CHANGE DURATION HERE // optional",
+    "statusType": "YOUR STATUS TYPE HERE // optional",
+    "errorChannel": "ID OF YOUR ERROR CHANNEL HERE // optional",
+    "statusChannel": "ID OF YOUR STATUS CHANNEL HERE  // optional",
+    "serverChannel": "ID OF YOUR SERVER CHANNEL HERE // optional",
+    "commandChannel": "ID OF YOUR COMMAND CHANNEL HERE // optional",
+    "owner": "YOUR ID HERE // optional"
 }
