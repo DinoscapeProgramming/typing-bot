@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dinoscape#5046",
   "license": "ISC",
   "dependencies": {
     "botdash.pro": "^1.0.2",
