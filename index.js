@@ -45,59 +45,10 @@ client.on('ready', async () => {
     .setFooter(`Online on ${client.guilds.cache.size} Servers`, client.user.displayAvatarURL())
     .setTimestamp()
     statusChannel.send(embed)
-    function command(commandName, commandDescription) {
+    function command(data) {
         client.api.applications(client.user.id).commands.post({
-            data: {
-                name: commandName,
-                description: commandDescription,
-                options: [
-                    {
-                        type: 'SUB_COMMAND',
-                        name: "start",
-                        description: "Let the bot start typing"
-                    },
-                    {
-                        type: 'SUB_COMMAND',
-                        name: "stop",
-                        description: "Let the bot stop typing"
-                    },
-                    {
-                        type: 'SUB_COMMAND',
-                        name: "start all",
-                        description: "Let the bot start typing in all channels"
-                    },
-                    {
-                        type: 'SUB_COMMAND',
-                        name: "stop all",
-                        description: "Let the bot stop typing in all channels"
-                    }
-                ]
-            }
+            data: data
         })
-    }
-    if (1 === 2) {
-    slash.createCommand({
-        name: "typing start",
-        description: "Let the bot start typing"
-    })
-    }
-    if (1 === 2) {
-    slash.createCommand({
-        name: "typing stop",
-        description: "Let the bot stop typing"
-    })
-    }
-    if (1 === 2) {
-    slash.createCommand({
-        name: "typing start all",
-        description: "Let the bot start typing in all"
-    })
-    }
-    if (1 === 2) {
-    slash.createCommand({
-        name: "typing stop all",
-        description: "Let the bot stop typing in all channels"
-    })
     }
     if (typeof config.status === "string") {
         client.user.setActivity(config.status, {
