@@ -30,8 +30,6 @@ const client = new Client({
 
 const disbut = require('discord-buttons');
 disbut(client)
-const slashCommandBuilder = require('discord-slash-commands-client');
-const slash = new slashCommandBuilder.Client(token, client.user.id)
 
 client.on('ready', async () => {
     console.log("I'm now ready on " + await client.guilds.cache.size + " Servers!")
@@ -45,7 +43,7 @@ client.on('ready', async () => {
     .setFooter(`Online on ${client.guilds.cache.size} Servers`, client.user.displayAvatarURL())
     .setTimestamp()
     statusChannel.send(embed)
-    function command(data) {
+    function slashCommand(data) {
         client.api.applications(client.user.id).commands.post({
             data: data
         })
