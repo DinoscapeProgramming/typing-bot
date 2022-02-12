@@ -37,3 +37,6 @@ WE DON'T GUARANTEE THAT THE BOT DON'T MAKE ANY DAMAGE WITH YOUR SERVER / OTHER S
 
 ## Credits
 Credits to [discord.js](https://discord.js.org) for the powerful module to make discord bots. Also a big thanks to [botdash.pro](https://botdash.pro) for the great dashboard application that you can use without any HTML or CSS skills.
+
+## ToDo
+* Slash Commands
