@@ -6,8 +6,12 @@ First go to token.txt and add your discord bot token there. After that please go
 ```
 npm install discord.js@12.5.3
 ```
-```npm install discord-buttons```
-```npm install botdash.pro```
+```
+npm install discord-buttons
+```
+```
+npm install botdash.pro
+```
 That's it!
 
 ## GitHub Repository
