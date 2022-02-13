@@ -14,6 +14,12 @@ npm install botdash.pro
 ```
 That's it!
 
+## Replit
+Yes, you can host this bot on replit. Only create a file called __.replit__ and with this content:
+```
+run = "node index.js"
+```
+
 ## GitHub Repository
 [Click here to see our GitHub Repository](https://github.com/DinoscapeProgramming/typing-bot)
 
