@@ -16,7 +16,7 @@ That's it!
 
 ## Replit
 Yes, you can host this bot on replit. Only create a file called __.replit__ and with this content:
-```
+```js
 run = "node index.js"
 ```
 
